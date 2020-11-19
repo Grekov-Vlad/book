@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Гостевая книга</title>
+	</head>
+	<body>
+		{logform}
+		<h1>Гостевая книга</h1>
+		{form}
+		{messages}
+	</body>
+</html>

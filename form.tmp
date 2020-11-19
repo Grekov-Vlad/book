@@ -1,0 +1,7 @@
+<form action="/gbook/index.py" method="post">
+	Имя: <input type="text" name="name"><br>
+	Email: <input type="text" name="email"><br>
+	<textarea name="msg"></textarea><br>
+	<input type="hidden" name="operation" value="post">
+	<input type="submit" value="Опубликовать">
+</form>

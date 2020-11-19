@@ -1,0 +1,10 @@
+<form action="/gbook/index.py" method="post">
+	Логин: <input type="text" name="login">&nbsp
+	Пароль: <input type="password" name="password">
+	<input type="hidden" name="operation" value="login">
+	<input type="submit" value="Войти">
+</form>
+<form action="/gbook/index.py" method="post">
+	<input type="hidden" name="operation" value="logout">
+	<input type="submit" value="Выйти">
+</form>
